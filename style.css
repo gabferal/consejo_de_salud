@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos Gerais */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    color: #222222;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700; /* Usa o estilo Bold */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #41644A;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0D4715;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 20px;
+}
+
+.destacado {
+    background-color: #41644A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destacado h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.destacado p {
+    font-size: 18px;
+}
+
+.destacado .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #007BFF;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.noticias, .eventos {
+    margin-bottom: 20px;
+}
+
+.noticias h2, .eventos h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.noticia-card, .evento-card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.noticia-card h3, .evento-card h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.noticia-card p, .evento-card p {
+    margin: 5px 0;
+}
+
+.noticia-card a, .evento-card a {
+    color: #007BFF;
+}
+/* Rodapé */
+footer {
+    background-color: #E9762B;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.footer-section {
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+}
+
+.footer-section ul li a:hover {
+    color: #007BFF;
+}
+
+.footer-section .fab {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.footer-section .fab:hover {
+    color: #007BFF;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+/* Media Queries para Dispositivos Móveis */
+@media (max-width: 768px) {
+    /* Ajustes no Cabeçalho */
+    .header-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo img {
+        max-width: 120px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Ajustes no Conteúdo Principal */
+    .destacado h1 {
+        font-size: 28px;
+    }
+
+    .destacado p {
+        font-size: 16px;
+    }
+
+    .noticias h2, .eventos h2 {
+        font-size: 22px;
+    }
+
+    .noticia-card, .evento-card {
+        padding: 10px;
+    }
+
+    .noticia-card h3, .evento-card h3 {
+        font-size: 18px;
+    }
+
+    .noticia-card p, .evento-card p {
+        font-size: 14px;
+    }
+
+    /* Ajustes no Rodapé */
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
